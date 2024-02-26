@@ -24,6 +24,7 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
 header {
     background-color: whitesmoke;
     padding: 0 1rem;
@@ -47,7 +48,7 @@ header a {
     list-style: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -57,15 +58,15 @@ nav {
     background-color: whitesmoke;
     min-width: 160px;
     overflow: auto;
-    box-shadow: -8px 20px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: -8px 20px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     top: 100%;
-    right:0%;
+    right: 0%;
     padding: 1rem 1rem 0;
     border-bottom: 0.1px solid black;
     border-left: 0.1px solid black;
     border-top: 0.1px solid black;
-    
+
 
 }
 
@@ -79,14 +80,14 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 
 
 .active {
     text-transform: uppercase;
-    font-weight: 2rem;
+    font-weight: bold;
 }
 
 main {
