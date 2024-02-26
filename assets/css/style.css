@@ -123,6 +123,24 @@ main {
     padding-bottom: 2px;
 }
 
+/* signup page */
+
+#contactus {
+    background-image: url("../images/needle.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    height: 100%;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -157,7 +175,7 @@ main {
     }
 
     main {
-        margin-top: 76px;
+        margin-top: 107px;
     }
 
     #p1,
