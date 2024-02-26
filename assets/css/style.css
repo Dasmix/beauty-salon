@@ -26,15 +26,15 @@ body {
 }
 
 header {
-    background-color: whitesmoke;
-    padding: 0 1rem;
+    background-color:#ffd1dc;
+    padding: 1rem;
     position: fixed;
     z-index: 100;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    border-bottom: solid 1px black;
+    min-height: 50px;
 }
 
 header a {
@@ -55,7 +55,7 @@ header a {
 nav {
     display: none;
     position: absolute;
-    background-color: whitesmoke;
+    background-color:#ffd1dc;
     min-width: 160px;
     overflow: auto;
     box-shadow: -8px 20px 16px 0px rgba(0, 0, 0, 0.2);
@@ -80,7 +80,8 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 1.7rem;
+    font-size: 2rem;
+    color: 	#ec3b83;
 }
 
 
@@ -91,12 +92,12 @@ nav {
 }
 
 main {
-    background-color: aquamarine;
+    background-color: whitesmoke;
     flex: 1 0 auto;
 }
 
-footer {
-    background-color: aliceblue;
+.footer {
+    background-color: 	#ffd1dc;
 }
 
 #social-networks {
@@ -110,7 +111,16 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #ec3b83;
+}
+
+#p1,
+#p2 {
+    display: none;
+    justify-self: center;
+    justify-content: space-around;
+    font-size: 80%;
+    padding-bottom: 2px;
 }
 
 @media screen and (min-width: 768px) {
@@ -148,5 +158,14 @@ footer {
 
     main {
         margin-top: 76px;
+    }
+
+    #p1,
+    #p2 {
+        display: flex;
+        justify-self: center;
+        justify-content: space-around;
+        font-size: 80%;
+        padding-bottom: 2px;
     }
 }
