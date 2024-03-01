@@ -171,15 +171,15 @@ main {
     height: 100px;
 }
 
-/* about us page */ 
+/* about us page */
 
 #aboutus {
-max-width: 500px;
-margin: 20px auto;
-padding: 20px;
-background-color: #fff;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-max-width: 300px;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 300px;
 }
 
 #photo1 {
@@ -192,6 +192,30 @@ max-width: 300px;
     border-bottom: 50px solid white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     margin: 20px auto;
+    min-width: 300px;
+}
+
+#photo2 {
+    background-image: url("../images/aboutus2.webp");
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 20px solid white;
+    border-bottom: 50px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    min-width: 300px;
+}
+
+#aboutus-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutus>div {
+    flex-basis: 200px;
+    flex-grow: 1;
 }
 
 
@@ -267,5 +291,28 @@ max-width: 300px;
     .submit-button:hover {
         background-color: white;
         color: #ec3b83;
+    }
+
+    #aboutus-main {
+        flex-direction: row;
+    }
+
+    #photo1 {
+        order: 0;
+        width: 500px;
+        height: 500px;
+    }
+
+    #photo2 {
+        order: 3;
+        width: 500px;
+        height: 500px;
+    }
+
+    #aboutus {
+        order: 1;
+        width: 500px;
+        height: 400px;
+        text-align:center;
     }
 }
