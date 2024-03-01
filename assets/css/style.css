@@ -177,7 +177,7 @@ main {
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     max-width: 300px;
 }
@@ -211,11 +211,69 @@ main {
 #aboutus-main {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 #aboutus>div {
     flex-basis: 200px;
     flex-grow: 1;
+}
+
+/* home page */
+
+#welcome {
+    background: url("../images/main-logo.webp") no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#welcome-text {
+    background-color: rgba(255, 209, 220, 0.7);
+    font-size: 230%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+#price-main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+
+#price-list,
+#price-list2 {
+    background-color: white;
+    padding: 1px;
+    width: 45%;
+    margin-left: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+#price-list li,
+#price-list2 li {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#services {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service {
+    font-weight: bold;
+    color: #555555;
+}
+
+.price {
+    color: #888888;
 }
 
 
@@ -311,8 +369,8 @@ main {
 
     #aboutus {
         order: 1;
-        width: 500px;
+        width: 800px;
         height: 400px;
-        text-align:center;
+        text-align: center;
     }
 }
