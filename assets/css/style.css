@@ -183,7 +183,7 @@ main {
 }
 
 #photo1 {
-    background-image: url("../images/aboutus1.webp");
+    background-image: url("../images/about-us1.webp");
     height: 300px;
     width: 300px;
     background-position: center;
@@ -196,7 +196,7 @@ main {
 }
 
 #photo2 {
-    background-image: url("../images/aboutus2.webp");
+    background-image: url("../images/about-us2.webp");
     height: 300px;
     width: 300px;
     background-position: center;
