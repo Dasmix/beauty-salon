@@ -308,7 +308,9 @@ th {
 }
 
 #tables {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -439,10 +441,5 @@ th {
         display: flex;
         width: 100%;
     }
-    #times {
-        width: 100%;
-    }
-    #location {
-        width: 100%;
-    }
+
 }
