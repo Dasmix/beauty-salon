@@ -127,7 +127,8 @@ main {
 
 /* signup page */
 
-#contactus {
+#contact-us,
+#thank-you {
     background-image: url("../images/cosmetics.webp");
     background-size: cover;
     background-position: 75%;
@@ -136,7 +137,7 @@ main {
 }
 
 #signup-form {
-    color: #ec3b83;
+    color: #ffffff;
     background-color: rgba(2, 0, 0, 0.781);
     padding: 30px;
     max-width: 500px;
@@ -170,6 +171,18 @@ main {
     width: 100%;
     height: 100px;
 }
+
+/* thank you page */
+
+#submit {
+    color: #ffffff;
+    background-color: rgba(2, 0, 0, 0.781);
+    padding: 30px;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+
+}
+
 
 /* about us page */
 
@@ -285,10 +298,10 @@ main {
 }
 
 #salon {
-background: url("../images/salon.webp") no-repeat center center/cover;
-width: 100%;
-height: 500px;
-position: relative;
+    background: url("../images/salon.webp") no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
 }
 
 table {
@@ -297,7 +310,8 @@ table {
     margin-top: 20px;
 }
 
-th, td {
+th,
+td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -311,13 +325,15 @@ th {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 }
 
 #tables h1 {
     text-align: center;
     margin: 5px;
 }
+
+
 
 
 
@@ -381,7 +397,8 @@ th {
         position: relative;
     }
 
-    #contact-form {
+    #contact-form, 
+    #submit {
         position: absolute;
         top: 150px;
         max-width: 400px;
@@ -432,7 +449,8 @@ th {
         margin-top: 40px;
     }
 
-    th, td {
+    th,
+    td {
         padding: 20px;
         text-align: center;
     }
