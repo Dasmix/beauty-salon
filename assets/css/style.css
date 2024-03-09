@@ -497,6 +497,7 @@ main {
 
     #map {
         min-height: auto;
+        max-height: 325px;
     }
 
 }
