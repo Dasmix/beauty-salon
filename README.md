@@ -2,7 +2,7 @@
 
 [View the live project here.](https://dasmix.github.io/beauty-salon/index.html)
 
-    -   ![Am I Responsive](/assets/images/responsives.PNG)
+    -   ![Am I Responsive](/workspace/beauty-salon/assets/images/responsives.PNG)
 
 This is the main marketing website for Beauty Salon. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
