@@ -2,7 +2,7 @@
 
 [View the live project here.](https://dasmix.github.io/beauty-salon/index.html)
 
-    -   ![Am I Responsive](/workspace/beauty-salon/assets/images/responsives.PNG)
+[Am I Responsive](/workspace/beauty-salon/assets/images/responsives.PNG)
 
 This is the main marketing website for Beauty Salon. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
@@ -191,3 +191,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My mentor Mitko Bachvarov provided helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+[def]: /workspace/beauty-salon/assets/images/responsives.PNG
