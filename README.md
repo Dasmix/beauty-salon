@@ -2,7 +2,7 @@
 
 [View the live project here.](https://dasmix.github.io/beauty-salon/index.html)
 
-    -   ![Am I Responsive](/assets/images/wireframes.PNG)
+    -   ![Am I Responsive](/assets/images/wireframes.png)
 
 This is the main marketing website for Beauty Salon. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
@@ -110,10 +110,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The user would already be comfortable with the website layout and can easily click the Facebook link.
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
